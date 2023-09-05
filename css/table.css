@@ -1,0 +1,55 @@
+body{
+background-color: lightpink;
+
+
+
+
+}
+p{ font-size: 50px;
+font-family: 'Lobster', cursive;
+
+
+}
+table{
+border: double 2px purple;
+font-size: 24px;
+width: 50%;
+}
+th,td{
+	border: solid 1px gold;
+	height: 1cm;
+	width: 25%;
+}
+th:hover{
+	background-color: lightblue;
+}
+td:hover{
+text-align: center;
+background-image: url(https://img.freepik.com/free-vector/pride-gradient-1_78370-282.jpg);
+
+background-size: cover;
+font-size: 1.5em;
+color: white;
+text-transform: uppercase;
+font-weight: 700;
+
+}
+tr:nth-child(odd){
+background-color: goldenrod;
+
+}
+tr:nth-child(even){
+	background-color: blueviolet;
+}
+caption{
+font-family: cursive;
+text-transform: uppercase;
+background-color: purple;
+}
+
+
+
+
+
+
+

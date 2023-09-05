@@ -1,0 +1,96 @@
+*{	
+	margin: 0;
+}
+body{
+	background-color: violet;
+}
+header{
+	height: 150px;
+	background-color: lightblue;
+	
+}
+h1{
+	font-size: 7vw;
+	text-align: center;
+
+}
+h2{
+	text-align: center;
+color: black;
+font-size: 25px;
+}
+nav,aside{
+	width: 20%;
+	
+	
+	float: left;
+}
+main{
+	width: 60%;
+	background-color: lightblue;
+	
+	float: left;
+}
+footer{
+	background-color: purple;
+	height: 50px;
+	clear: both;
+}
+article{
+	border: 1px black;
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	}
+.textvideo{
+color: violet;
+z-index: 2;
+font-size: 100px;
+background-color: purple;
+font-family: 'Borel', cursive;
+text-shadow: 2px 2px black;
+}
+.h3{
+border: 1px black;
+	width: 30%;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+
+}
+.myButton {
+	margin-left: 5px;
+	box-shadow:inset 0px 5px 11px -50px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:32px;
+	border:12px solid #caa3e6;
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px 58px;
+	text-decoration:none;
+	text-shadow:4px 4px 0px #9752cc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.img{
+text-align: center;
+
+
+}
+
+
+
+
+

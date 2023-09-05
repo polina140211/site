@@ -1,0 +1,72 @@
+body{
+	background-color: lightcyan;
+}
+p{
+font-family: cursive;
+text-align: center;
+font-size: 100px;
+color: goldenrod;
+text-transform: uppercase;
+letter-spacing: 5px;
+text-shadow: 0 0 10px purple;
+}
+.f1{
+font-size: 24px;
+text-decoration: none;
+}
+.f1:visited{
+	color: blueviolet;
+}
+.f1:active{
+	box-shadow: 0 0 20px goldenrod;
+}
+.b1{
+width: 200px;
+height: 75px;
+font-size: 24px;
+color: purple;
+font-weight: 700;
+letter-spacing: 5px;
+border-radius:50% ;
+background-color: lightcoral;
+border: double 10px purple;
+}
+.b1:hover{
+color: lightcoral;
+background-color: purple;
+border-color: ;
+box-shadow: 0 0 20px goldenrod;
+transform: translate( 10px ,-10px);
+}
+.myButton {
+	box-shadow:inset 0px 5px 11px -50px #efdcfb;
+	background:linear-gradient(to bottom, #dfbdfa 5%, #bc80ea 100%);
+	background-color:#dfbdfa;
+	border-radius:32px;
+	border:12px solid #caa3e6;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:15px 58px;
+	text-decoration:none;
+	text-shadow:4px 4px 0px #9752cc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #bc80ea 5%, #dfbdfa 100%);
+	background-color:#bc80ea;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
+
+
+
+
+

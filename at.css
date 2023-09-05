@@ -1,0 +1,49 @@
+body{
+background-color: purple;
+}
+p{
+font-size: 50px;
+color: goldenrod;
+background-color: snow;
+text-align: center;
+}
+marquee{
+	font-size: 40px;
+}
+div.fd{
+width:150px ;
+height: 150px;
+background-color: snow;
+animation-name: example2;
+animation-duration: 6s;
+}
+@keyframes example2{
+0%{background-color: snow;}
+25%{background-color:yellow;}
+50%{background-color:gold;}
+75%{background-color:goldenrod;}
+100%{background-color: darkgoldenrod;}
+}
+div.td{
+width:150px ;
+height: 150px;
+background-color: snow;
+animation-name: example3;
+animation-duration: 6s;
+position: relative;
+animation-delay: 5s;
+animation-iteration-count: infinite;
+font-size: 24px;
+text-align: center;
+}
+@keyframes example3{
+0%{background-color: snow; left: 0px; top: 0px}
+25%{background-color:yellow;left: 300px; top: 0px}
+50%{background-color:gold;left:300px; top: 300px}
+75%{background-color:goldenrod;left: 0px; top: 300px}
+100%{background-color: darkgoldenrod;left: 0px; top: 0px}
+}
+
+
+
+

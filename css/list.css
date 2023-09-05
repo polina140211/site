@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+body{
+background-image: url(https://img.freepik.com/premium-vector/background-desktop-wallpaper-phone-screen-image-game-app-modern-cover-backdrop-pattern-texture_101884-2262.jpg);
+background-size: cover ;
+
+
+
+
+}
+p{font-size: 50px;
+color: purple;
+text-align: center;
+font-family: 'Borel', cursive;
+text-shadow: 2px 2px black;
+
+
+}
+ul,ol{
+	font-size: 24px;
+color: purple;
+}
+
+@counter-style cs-symbolic {
+  system: symbolic;
+  symbols: '*' ⁑ † ‡;
+  range: 1 15;
+  suffix: " ";
+}
+.cd {
+	list-style: cs-symbolic;
+}
+
+
+@counter-style blacknwhite {
+  system: cyclic;
+  symbols: ◆ ◇;
+  suffix: " ";
+}
+.ca {
+	list-style: blacknwhite
+}
+
+
+
+
+
+
+
+
+

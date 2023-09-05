@@ -1,0 +1,79 @@
+
+body{
+background-image: url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-size: cover;
+
+
+
+
+}
+p{
+font-size: 50pt;	
+}
+.p1{
+	
+background: repeating-conic-gradient(45deg, pink 10%, hotpink 20%);
+text-align: center;
+color: #123456;
+
+}
+
+.p2{
+font-family: 'Rubik Gemstones', cursive;
+
+}
+.p3{
+font-family: 'Rubik Moonrocks', cursive;
+
+}
+.p4{
+
+font-family: 'Pacifico', cursive;
+
+}
+.p5{ 
+text-decoration: underline;
+text-underline-position: under;
+text-decoration-style: dotted ;
+text-decoration-color: violet;
+}
+.p6{
+text-decoration: underline;
+text-underline-position: under;
+text-decoration-style: wavy;
+text-decoration-color: white;
+font-weight: 900;
+font-style: italic;
+ text-emphasis: '*';
+
+
+}
+
+.p7{text-shadow: 2px 2px 7px white;
+
+
+
+}
+.p8{text-shadow: 5px 5px violet, -5px -5px red;
+
+
+}
+.p{
+
+	color: gold;
+}
+.p9{color: gold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

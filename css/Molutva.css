@@ -51,8 +51,7 @@ background-color: purple;
 font-family: 'Borel', cursive;
 text-shadow: 2px 2px black;
 }
-.h3{
-border: 1px black;
+article{
 	width: 30%;
 	display: inline-block;
 	margin: 10px;
@@ -85,12 +84,21 @@ border: 1px black;
 	top:1px;
 }
 .img{
-text-align: center;
+margin: auto;
+display: block;
 
 
 }
-
-
+@media only screen and (max-width:800px){
+	nav,main,aside{
+		width: 100%;
+	}
+}
+@media only screen and (max-width:800px){
+	article{
+		width: 100%;
+	}
+}
 
 
 
